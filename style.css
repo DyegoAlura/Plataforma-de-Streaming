@@ -1,0 +1,157 @@
+:root {
+    --branco-principal: #ffce64;
+    --cinza-secundario: #55ff07;
+    --botao-verde: #67db77;
+    --cor-de-fundo: #39abf7;
+    --fonte-principal: 'Josefin+Sans';
+}
+
+body {
+    background: black;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.principal {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 90%;
+     max-width: 90%;
+     display: grid;
+     grid-template-columns: 90% 90%;
+}
+
+img {
+    max-width: 50%;
+}
+
+.container_botao {
+    background-color: var(--botao-verde);
+    border-radius: 7px;
+    padding: 1em;
+    color: black;
+    display: block; 
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid rgb(255, 157, 239);
+    color: rgb(255, 1, 128);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: orange;
+}
+
+.container_titulo {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.container__image {
+    margin: 3em 0 5em 0;
+}
+
+.container__caixa {
+    margin: 0 3em;
+}
+
+img {
+    float: right;
+}
+
+.secundario__iamge {
+    width: 80%;
+}
+
+.secudario {
+    align-items: center;
+    margin: 0 20em;
+}
+
+.descricao__titulo {
+    align-items: center;
+    margin: 0 -15em
+}
+
+.titulo__descricao {
+    align-items: center;
+    margin: 0 -22em;
+    color: orange;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__Animes {
+margin-top: -1em;
+}
+
+.lerolerolerolero {
+    color: red;
+    font-size: larger;
+}
+
+.descricao__2 {
+    margin-top: 5em;
+    color: orange;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    color: orange;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+    color: orange;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover {
+    color: #39abf7;
+}
+
+.lista__link :active {
+    color: var(--botao-verde);
+}
+
+.container_botao a:hover {
+    background: #39abf7;
+    color: black;
+}
+
